@@ -1,42 +1,23 @@
-body{
-  font-family: 'Roboto';
-}
-.App{
-  display: flex;
-  height: 100%;
-  background-color: #191919;
-  flex-direction: column;
-}
-
-.header{
-  border-bottom: solid 1px #8e8e8e80;
-  height: 60px;
-}
-
-.content-container{
-  display: flex;
-  padding: 45px 30px;
-  justify-content: space-around;
-}
 
 .goal{
   background-color: #353535;
   width: 500px;
   height: 360px;
-  color: #8E8E8E;
+  color: #8e8e8ee0;
   border-radius: 5px;
   transition: 90ms border-bottom;
+  font-weight: 500;
 }
 
 .goal:hover{
   cursor: pointer;
-  border-bottom: solid 3px #1B8DD9;
+  border-bottom: solid 1px #1B8DD9;
 }
 
 .goal-header{
   font-size: 1.6em;
   height: 60px;
-  border-bottom: 1px solid #8E8E8E;
+  border-bottom: 1px solid #8e8e8e73;
   padding: 0 30px;
   display: flex;
   align-items: center;

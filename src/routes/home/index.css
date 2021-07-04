@@ -1,0 +1,9 @@
+body{
+  font-family: 'Roboto';
+}
+
+.content-container{
+  display: flex;
+  padding: 45px 30px;
+  justify-content: space-around;
+}

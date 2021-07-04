@@ -9,10 +9,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 #root, body, html{
   height: 100%;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.App{
+  display: flex;
+  height: 100%;
+  background-color: #191919;
+  flex-direction: column;
+}
+.header{
+  border-bottom: solid 1px #8e8e8e80;
+  height: 60px;
 }
